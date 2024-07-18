@@ -1,456 +1,455 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "title": "The Shining",
-        "author": "Stephen King",
-        "published": "1977",
-        "description": "A family heads to an isolated hotel for the winter where an evil spiritual presence influences the father into violence.",
-        "image": "https://covers.openlibrary.org/b/id/8235426-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 2,
-        "title": "It",
-        "author": "Stephen King",
-        "published": "1986",
-        "description": "In the town of Derry, the local kids are disappearing one by one, leaving behind bloody remains.",
-        "image": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 3,
-        "title": "Harry Potter and the Philosopher's Stone",
-        "author": "J.K. Rowling",
-        "published": "1997",
-        "description": "A young boy discovers he is a wizard on his 11th birthday.",
-        "image": "https://covers.openlibrary.org/b/id/7888781-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 4,
-        "title": "The Hobbit",
-        "author": "J.R.R. Tolkien",
-        "published": "1937",
-        "description": "Bilbo Baggins, a hobbit, is recruited by a wizard and a group of dwarves to reclaim their mountain home from a dragon.",
-        "image": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 5,
-        "title": "To Kill a Mockingbird",
-        "author": "Harper Lee",
-        "published": "1960",
-        "description": "A young girl grows up in a racially charged town in the Deep South.",
-        "image": "https://covers.openlibrary.org/b/id/8225261-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 6,
-        "title": "1984",
-        "author": "George Orwell",
-        "published": "1949",
-        "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
-        "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 7,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen",
-        "published": "1813",
-        "description": "A classic romantic novel about the manners and matrimonial machinations among the British gentry of the early 19th century.",
-        "image": "https://covers.openlibrary.org/b/id/7990001-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 8,
-        "title": "The Catcher in the Rye",
-        "author": "J.D. Salinger",
-        "published": "1951",
-        "description": "A story about the events and circumstances that lead to the mental breakdown of a young boy.",
-        "image": "https://covers.openlibrary.org/b/id/8107071-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 9,
-        "title": "Moby-Dick",
-        "author": "Herman Melville",
-        "published": "1851",
-        "description": "The narrative of Captain Ahab's obsessive quest to kill the white whale, Moby Dick.",
-        "image": "https://covers.openlibrary.org/b/id/7319581-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 10,
-        "title": "War and Peace",
-        "author": "Leo Tolstoy",
-        "published": "1869",
-        "description": "A depiction of Russian society during the Napoleonic Era.",
-        "image": "https://covers.openlibrary.org/b/id/7341066-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 11,
-        "title": "Charlotte's Web",
-        "author": "E.B. White",
-        "published": "1952",
-        "description": "A story about the friendship between a pig named Wilbur and a spider named Charlotte.",
-        "image": "https://covers.openlibrary.org/b/id/8072256-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 12,
-        "title": "The Very Hungry Caterpillar",
-        "author": "Eric Carle",
-        "published": "1969",
-        "description": "A caterpillar eats its way through a wide variety of foodstuffs before pupating and emerging as a butterfly.",
-        "image": "https://covers.openlibrary.org/b/id/8055641-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 13,
-        "title": "Green Eggs and Ham",
-        "author": "Dr. Seuss",
-        "published": "1960",
-        "description": "A story about a character named Sam-I-Am who tries to convince another character to eat green eggs and ham.",
-        "image": "https://covers.openlibrary.org/b/id/8090736-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 14,
-        "title": "Goodnight Moon",
-        "author": "Margaret Wise Brown",
-        "published": "1947",
-        "description": "A classic children's book about a bunny saying goodnight to everything around.",
-        "image": "https://covers.openlibrary.org/b/id/8072681-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 15,
-        "title": "Where the Wild Things Are",
-        "author": "Maurice Sendak",
-        "published": "1963",
-        "description": "A story about a young boy named Max who goes on an adventure to where the wild things are.",
-        "image": "https://covers.openlibrary.org/b/id/8072026-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 16,
-        "title": "The Da Vinci Code",
-        "author": "Dan Brown",
-        "published": "2003",
-        "description": "A mystery thriller novel that involves the symbologist Robert Langdon.",
-        "image": "https://covers.openlibrary.org/b/id/8104676-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 17,
-        "title": "The Girl with the Dragon Tattoo",
-        "author": "Stieg Larsson",
-        "published": "2005",
-        "description": "A mystery novel featuring a journalist and a hacker.",
-        "image": "https://covers.openlibrary.org/b/id/8100846-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 18,
-        "title": "Gone Girl",
-        "author": "Gillian Flynn",
-        "published": "2012",
-        "description": "A thriller novel about the mysterious disappearance of a woman named Amy Dunne.",
-        "image": "https://covers.openlibrary.org/b/id/8105106-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 19,
-        "title": "Fifty Shades of Grey",
-        "author": "E.L. James",
-        "published": "2011",
-        "description": "A romance novel that features a deep relationship between a college graduate and a young business magnate.",
-        "image": "https://covers.openlibrary.org/b/id/8103676-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 20,
-        "title": "The Fault in Our Stars",
-        "author": "John Green",
-        "published": "2012",
-        "description": "A love story about two teenage cancer patients.",
-        "image": "https://covers.openlibrary.org/b/id/8104926-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 21,
-        "title": "The Road",
-        "author": "Cormac McCarthy",
-        "published": "2006",
-        "description": "A post-apocalyptic novel about a father and his young son.",
-        "image": "https://covers.openlibrary.org/b/id/8104546-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 22,
-        "title": "The Book Thief",
-        "author": "Markus Zusak",
-        "published": "2005",
-        "description": "A story about a young girl living in Nazi Germany who steals books.",
-        "image": "https://covers.openlibrary.org/b/id/8103016-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 23,
-        "title": "The Alchemist",
-        "author": "Paulo Coelho",
-        "published": "1988",
-        "description": "A novel about a young Andalusian shepherd in his journey to the pyramids of Egypt.",
-        "image": "https://covers.openlibrary.org/b/id/8101906-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 24,
-        "title": "Life of Pi",
-        "author": "Yann Martel",
-        "published": "2001",
-        "description": "A story about a young man who survives a shipwreck and is stranded on a lifeboat with a Bengal tiger.",
-        "image": "https://covers.openlibrary.org/b/id/8101476-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 25,
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald",
-        "published": "1925",
-        "description": "A story about the young and mysterious millionaire Jay Gatsby and his obsession with the beautiful former debutante Daisy Buchanan.",
-        "image": "https://covers.openlibrary.org/b/id/8224511-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 26,
-        "title": "Jane Eyre",
-        "author": "Charlotte Brontë",
-        "published": "1847",
-        "description": "A novel about the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.",
-        "image": "https://covers.openlibrary.org/b/id/8226611-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 27,
-        "title": "Wuthering Heights",
-        "author": "Emily Brontë",
-        "published": "1847",
-        "description": "A story about the turbulent and unrequited love between Heathcliff and Catherine Earnshaw.",
-        "image": "https://covers.openlibrary.org/b/id/8238721-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 28,
-        "title": "The Hunger Games",
-        "author": "Suzanne Collins",
-        "published": "2008",
-        "description": "A dystopian novel about a televised fight to the death in a future society.",
-        "image": "https://covers.openlibrary.org/b/id/8236346-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 29,
-        "title": "Catching Fire",
-        "author": "Suzanne Collins",
-        "published": "2009",
-        "description": "The second book in The Hunger Games series.",
-        "image": "https://covers.openlibrary.org/b/id/8235446-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 30,
-        "title": "Mockingjay",
-        "author": "Suzanne Collins",
-        "published": "2010",
-        "description": "The third book in The Hunger Games series.",
-        "image": "https://covers.openlibrary.org/b/id/8234616-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 31,
-        "title": "Twilight",
-        "author": "Stephenie Meyer",
-        "published": "2005",
-        "description": "A romance novel about a teenage girl and a vampire.",
-        "image": "https://covers.openlibrary.org/b/id/8231986-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 32,
-        "title": "New Moon",
-        "author": "Stephenie Meyer",
-        "published": "2006",
-        "description": "The second book in the Twilight series.",
-        "image": "https://covers.openlibrary.org/b/id/8231746-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 33,
-        "title": "Eclipse",
-        "author": "Stephenie Meyer",
-        "published": "2007",
-        "description": "The third book in the Twilight series.",
-        "image": "https://covers.openlibrary.org/b/id/8231316-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 34,
-        "title": "Breaking Dawn",
-        "author": "Stephenie Meyer",
-        "published": "2008",
-        "description": "The fourth book in the Twilight series.",
-        "image": "https://covers.openlibrary.org/b/id/8231176-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 35,
-        "title": "The Maze Runner",
-        "author": "James Dashner",
-        "published": "2009",
-        "description": "A young adult dystopian science fiction novel about a group of teenagers trapped in a maze.",
-        "image": "https://covers.openlibrary.org/b/id/8231046-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 36,
-        "title": "The Lord of the Rings",
-        "author": "J.R.R. Tolkien",
-        "published": "1954",
-        "description": "An epic high-fantasy novel set in the fictional world of Middle-earth.",
-        "image": "https://covers.openlibrary.org/b/id/8230936-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 37,
-        "title": "Dune",
-        "author": "Frank Herbert",
-        "published": "1965",
-        "description": "A science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
-        "image": "https://covers.openlibrary.org/b/id/8230856-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 38,
-        "title": "Ender's Game",
-        "author": "Orson Scott Card",
-        "published": "1985",
-        "description": "A military science fiction novel about a young boy recruited to save humanity from an alien threat.",
-        "image": "https://covers.openlibrary.org/b/id/8230786-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 39,
-        "title": "The Chronicles of Narnia",
-        "author": "C.S. Lewis",
-        "published": "1950",
-        "description": "A series of seven fantasy novels set in the fictional realm of Narnia.",
-        "image": "https://covers.openlibrary.org/b/id/8230726-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 40,
-        "title": "The Golden Compass",
-        "author": "Philip Pullman",
-        "published": "1995",
-        "description": "A fantasy novel about a young girl's adventure in a parallel universe.",
-        "image": "https://covers.openlibrary.org/b/id/8230666-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 41,
-        "title": "The Martian",
-        "author": "Andy Weir",
-        "published": "2011",
-        "description": "A science fiction novel about an astronaut stranded on Mars.",
-        "image": "https://covers.openlibrary.org/b/id/8230596-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 42,
-        "title": "Ready Player One",
-        "author": "Ernest Cline",
-        "published": "2011",
-        "description": "A dystopian science fiction novel about a virtual reality treasure hunt.",
-        "image": "https://covers.openlibrary.org/b/id/8230526-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 43,
-        "title": "A Game of Thrones",
-        "author": "George R.R. Martin",
-        "published": "1996",
-        "description": "A fantasy novel about the political and social upheaval in the fictional land of Westeros.",
-        "image": "https://covers.openlibrary.org/b/id/8230456-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 44,
-        "title": "The Handmaid's Tale",
-        "author": "Margaret Atwood",
-        "published": "1985",
-        "description": "A dystopian novel about a theocratic society in which women are property of the state.",
-        "image": "https://covers.openlibrary.org/b/id/8230386-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 45,
-        "title": "The Kite Runner",
-        "author": "Khaled Hosseini",
-        "published": "2003",
-        "description": "A novel about friendship and redemption set against the backdrop of a changing Afghanistan.",
-        "image": "https://covers.openlibrary.org/b/id/8230316-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 46,
-        "title": "Slaughterhouse-Five",
-        "author": "Kurt Vonnegut",
-        "published": "1969",
-        "description": "A science fiction-infused anti-war novel about the World War II experiences of Billy Pilgrim.",
-        "image": "https://covers.openlibrary.org/b/id/8230246-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 47,
-        "title": "The Hitchhiker's Guide to the Galaxy",
-        "author": "Douglas Adams",
-        "published": "1979",
-        "description": "A comic science fiction series about the adventures of Arthur Dent, an unwitting human who is swept off Earth just before it's destroyed.",
-        "image": "https://covers.openlibrary.org/b/id/8230176-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 48,
-        "title": "Frankenstein",
-        "author": "Mary Shelley",
-        "published": "1818",
-        "description": "A novel about a young scientist who creates a grotesque creature in an unorthodox scientific experiment.",
-        "image": "https://covers.openlibrary.org/b/id/8230106-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 49,
-        "title": "Dracula",
-        "author": "Bram Stoker",
-        "published": "1897",
-        "description": "A novel about Count Dracula's attempt to move from Transylvania to England.",
-        "image": "https://covers.openlibrary.org/b/id/8230036-L.jpg",
-        "rating": null
-      },
-      {
-        "id": 50,
-        "title": "The Picture of Dorian Gray",
-        "author": "Oscar Wilde",
-        "published": "1890",
-        "description": "A novel about a young man who remains eternally youthful while his portrait ages.",
-        "image": "https://covers.openlibrary.org/b/id/8229966-L.jpg",
-        "rating": null
-      }
-    ],
-    "favorites": []
-  }
-  
+  "books": [
+    {
+      "id": "1",
+      "title": "The Shining",
+      "author": "Stephen King",
+      "published": "1977",
+      "description": "A family heads to an isolated hotel for the winter where an evil spiritual presence influences the father into violence.",
+      "image": "https://covers.openlibrary.org/b/id/8235426-L.jpg",
+      "rating": "3"
+    },
+    {
+      "id": "2",
+      "title": "It",
+      "author": "Stephen King",
+      "published": "1986",
+      "description": "In the town of Derry, the local kids are disappearing one by one, leaving behind bloody remains.",
+      "image": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "3",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J.K. Rowling",
+      "published": "1997",
+      "description": "A young boy discovers he is a wizard on his 11th birthday.",
+      "image": "https://covers.openlibrary.org/b/id/7888781-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "4",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "published": "1937",
+      "description": "Bilbo Baggins, a hobbit, is recruited by a wizard and a group of dwarves to reclaim their mountain home from a dragon.",
+      "image": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+      "rating": "4"
+    },
+    {
+      "id": "5",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "published": "1960",
+      "description": "A young girl grows up in a racially charged town in the Deep South.",
+      "image": "https://covers.openlibrary.org/b/id/8225261-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "6",
+      "title": "1984",
+      "author": "George Orwell",
+      "published": "1949",
+      "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
+      "image": "https://covers.openlibrary.org/b/id/7222246-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "7",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "published": "1813",
+      "description": "A classic romantic novel about the manners and matrimonial machinations among the British gentry of the early 19th century.",
+      "image": "https://covers.openlibrary.org/b/id/7990001-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "8",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "published": "1951",
+      "description": "A story about the events and circumstances that lead to the mental breakdown of a young boy.",
+      "image": "https://covers.openlibrary.org/b/id/8107071-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "9",
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "published": "1851",
+      "description": "The narrative of Captain Ahab's obsessive quest to kill the white whale, Moby Dick.",
+      "image": "https://covers.openlibrary.org/b/id/7319581-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "10",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "published": "1869",
+      "description": "A depiction of Russian society during the Napoleonic Era.",
+      "image": "https://covers.openlibrary.org/b/id/7341066-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "11",
+      "title": "Charlotte's Web",
+      "author": "E.B. White",
+      "published": "1952",
+      "description": "A story about the friendship between a pig named Wilbur and a spider named Charlotte.",
+      "image": "https://covers.openlibrary.org/b/id/8072256-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "12",
+      "title": "The Very Hungry Caterpillar",
+      "author": "Eric Carle",
+      "published": "1969",
+      "description": "A caterpillar eats its way through a wide variety of foodstuffs before pupating and emerging as a butterfly.",
+      "image": "https://covers.openlibrary.org/b/id/8055641-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "13",
+      "title": "Green Eggs and Ham",
+      "author": "Dr. Seuss",
+      "published": "1960",
+      "description": "A story about a character named Sam-I-Am who tries to convince another character to eat green eggs and ham.",
+      "image": "https://covers.openlibrary.org/b/id/8090736-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "14",
+      "title": "Goodnight Moon",
+      "author": "Margaret Wise Brown",
+      "published": "1947",
+      "description": "A classic children's book about a bunny saying goodnight to everything around.",
+      "image": "https://covers.openlibrary.org/b/id/8072681-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "15",
+      "title": "Where the Wild Things Are",
+      "author": "Maurice Sendak",
+      "published": "1963",
+      "description": "A story about a young boy named Max who goes on an adventure to where the wild things are.",
+      "image": "https://covers.openlibrary.org/b/id/8072026-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "16",
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "published": "2003",
+      "description": "A mystery thriller novel that involves the symbologist Robert Langdon.",
+      "image": "https://covers.openlibrary.org/b/id/8104676-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "17",
+      "title": "The Girl with the Dragon Tattoo",
+      "author": "Stieg Larsson",
+      "published": "2005",
+      "description": "A mystery novel featuring a journalist and a hacker.",
+      "image": "https://covers.openlibrary.org/b/id/8100846-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "18",
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "published": "2012",
+      "description": "A thriller novel about the mysterious disappearance of a woman named Amy Dunne.",
+      "image": "https://covers.openlibrary.org/b/id/8105106-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "19",
+      "title": "Fifty Shades of Grey",
+      "author": "E.L. James",
+      "published": "2011",
+      "description": "A romance novel that features a deep relationship between a college graduate and a young business magnate.",
+      "image": "https://covers.openlibrary.org/b/id/8103676-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "20",
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "published": "2012",
+      "description": "A love story about two teenage cancer patients.",
+      "image": "https://covers.openlibrary.org/b/id/8104926-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "21",
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "published": "2006",
+      "description": "A post-apocalyptic novel about a father and his young son.",
+      "image": "https://covers.openlibrary.org/b/id/8104546-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "22",
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "published": "2005",
+      "description": "A story about a young girl living in Nazi Germany who steals books.",
+      "image": "https://covers.openlibrary.org/b/id/8103016-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "23",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "published": "1988",
+      "description": "A novel about a young Andalusian shepherd in his journey to the pyramids of Egypt.",
+      "image": "https://covers.openlibrary.org/b/id/8101906-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "24",
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "published": "2001",
+      "description": "A story about a young man who survives a shipwreck and is stranded on a lifeboat with a Bengal tiger.",
+      "image": "https://covers.openlibrary.org/b/id/8101476-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "25",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "published": "1925",
+      "description": "A story about the young and mysterious millionaire Jay Gatsby and his obsession with the beautiful former debutante Daisy Buchanan.",
+      "image": "https://covers.openlibrary.org/b/id/8224511-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "26",
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "published": "1847",
+      "description": "A novel about the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.",
+      "image": "https://covers.openlibrary.org/b/id/8226611-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "27",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "published": "1847",
+      "description": "A story about the turbulent and unrequited love between Heathcliff and Catherine Earnshaw.",
+      "image": "https://covers.openlibrary.org/b/id/8238721-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "28",
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "published": "2008",
+      "description": "A dystopian novel about a televised fight to the death in a future society.",
+      "image": "https://covers.openlibrary.org/b/id/8236346-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "29",
+      "title": "Catching Fire",
+      "author": "Suzanne Collins",
+      "published": "2009",
+      "description": "The second book in The Hunger Games series.",
+      "image": "https://covers.openlibrary.org/b/id/8235446-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "30",
+      "title": "Mockingjay",
+      "author": "Suzanne Collins",
+      "published": "2010",
+      "description": "The third book in The Hunger Games series.",
+      "image": "https://covers.openlibrary.org/b/id/8234616-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "31",
+      "title": "Twilight",
+      "author": "Stephenie Meyer",
+      "published": "2005",
+      "description": "A romance novel about a teenage girl and a vampire.",
+      "image": "https://covers.openlibrary.org/b/id/8231986-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "32",
+      "title": "New Moon",
+      "author": "Stephenie Meyer",
+      "published": "2006",
+      "description": "The second book in the Twilight series.",
+      "image": "https://covers.openlibrary.org/b/id/8231746-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "33",
+      "title": "Eclipse",
+      "author": "Stephenie Meyer",
+      "published": "2007",
+      "description": "The third book in the Twilight series.",
+      "image": "https://covers.openlibrary.org/b/id/8231316-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "34",
+      "title": "Breaking Dawn",
+      "author": "Stephenie Meyer",
+      "published": "2008",
+      "description": "The fourth book in the Twilight series.",
+      "image": "https://covers.openlibrary.org/b/id/8231176-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "35",
+      "title": "The Maze Runner",
+      "author": "James Dashner",
+      "published": "2009",
+      "description": "A young adult dystopian science fiction novel about a group of teenagers trapped in a maze.",
+      "image": "https://covers.openlibrary.org/b/id/8231046-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "36",
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "published": "1954",
+      "description": "An epic high-fantasy novel set in the fictional world of Middle-earth.",
+      "image": "https://covers.openlibrary.org/b/id/8230936-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "37",
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "published": "1965",
+      "description": "A science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset and most vital element in the galaxy.",
+      "image": "https://covers.openlibrary.org/b/id/8230856-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "38",
+      "title": "Ender's Game",
+      "author": "Orson Scott Card",
+      "published": "1985",
+      "description": "A military science fiction novel about a young boy recruited to save humanity from an alien threat.",
+      "image": "https://covers.openlibrary.org/b/id/8230786-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "39",
+      "title": "The Chronicles of Narnia",
+      "author": "C.S. Lewis",
+      "published": "1950",
+      "description": "A series of seven fantasy novels set in the fictional realm of Narnia.",
+      "image": "https://covers.openlibrary.org/b/id/8230726-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "40",
+      "title": "The Golden Compass",
+      "author": "Philip Pullman",
+      "published": "1995",
+      "description": "A fantasy novel about a young girl's adventure in a parallel universe.",
+      "image": "https://covers.openlibrary.org/b/id/8230666-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "41",
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "published": "2011",
+      "description": "A science fiction novel about an astronaut stranded on Mars.",
+      "image": "https://covers.openlibrary.org/b/id/8230596-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "42",
+      "title": "Ready Player One",
+      "author": "Ernest Cline",
+      "published": "2011",
+      "description": "A dystopian science fiction novel about a virtual reality treasure hunt.",
+      "image": "https://covers.openlibrary.org/b/id/8230526-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "43",
+      "title": "A Game of Thrones",
+      "author": "George R.R. Martin",
+      "published": "1996",
+      "description": "A fantasy novel about the political and social upheaval in the fictional land of Westeros.",
+      "image": "https://covers.openlibrary.org/b/id/8230456-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "44",
+      "title": "The Handmaid's Tale",
+      "author": "Margaret Atwood",
+      "published": "1985",
+      "description": "A dystopian novel about a theocratic society in which women are property of the state.",
+      "image": "https://covers.openlibrary.org/b/id/8230386-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "45",
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "published": "2003",
+      "description": "A novel about friendship and redemption set against the backdrop of a changing Afghanistan.",
+      "image": "https://covers.openlibrary.org/b/id/8230316-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "46",
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "published": "1969",
+      "description": "A science fiction-infused anti-war novel about the World War II experiences of Billy Pilgrim.",
+      "image": "https://covers.openlibrary.org/b/id/8230246-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "47",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "published": "1979",
+      "description": "A comic science fiction series about the adventures of Arthur Dent, an unwitting human who is swept off Earth just before it's destroyed.",
+      "image": "https://covers.openlibrary.org/b/id/8230176-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "48",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "published": "1818",
+      "description": "A novel about a young scientist who creates a grotesque creature in an unorthodox scientific experiment.",
+      "image": "https://covers.openlibrary.org/b/id/8230106-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "49",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "published": "1897",
+      "description": "A novel about Count Dracula's attempt to move from Transylvania to England.",
+      "image": "https://covers.openlibrary.org/b/id/8230036-L.jpg",
+      "rating": null
+    },
+    {
+      "id": "50",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "published": "1890",
+      "description": "A novel about a young man who remains eternally youthful while his portrait ages.",
+      "image": "https://covers.openlibrary.org/b/id/8229966-L.jpg",
+      "rating": null
+    }
+  ],
+  "favorites": []
+}
