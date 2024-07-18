@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('search');
     const bookList = document.getElementById('book-list');
     const bookDetails = document.getElementById('book-details');
     const favoritesList = document.getElementById('favorites-list');
 
     let favoriteBooks = [];
 
-    // Fetch books from API
+    // Fetch books from url served
     const fetchBooks = (query = '') => {
         fetch(`http://localhost:3000/books?q=${query}`)
             .then(response => response.json())
@@ -14,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(error => console.error('Error fetching books:', error));
     };
 
-    // Fetch favorites from API
+    // Fetching favorites from my fav end point
     const fetchFavorites = () => {
         fetch('http://localhost:3000/favorites')
             .then(response => response.json())
@@ -43,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // Display book details
+    // Displaying book deets
     const displayBookDetails = (book) => {
         bookDetails.innerHTML = `
             <h2>${book.title}</h2>
@@ -63,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('rate-book').addEventListener('click', () => rateBook(book));
     };
 
-    // Add book to favorites
+    // Addinf book to favs
     const addToFavorites = (book) => {
         if (!favoriteBooks.some(fav => fav.id === book.id)) {
             fetch('http://localhost:3000/favorites', {
@@ -84,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Remove book from favorites
+    // Rm from favs both json & UI
     const removeFromFavorites = (book) => {
         fetch(`http://localhost:3000/favorites/${book.id}`, {
             method: 'DELETE',
@@ -99,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error removing book from favorites:', error));
     };
 
-    // Rate a book
+    // Rating
     const rateBook = (book) => {
         const rating = document.getElementById('rating').value;
         book.rating = rating;
@@ -121,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => console.error('Error updating book rating:', error));
     };
 
-    // Display favorites in the list
+    // List of favs Disp
     const displayFavorites = (favorites) => {
         favoritesList.innerHTML = '<h2>Favorite Books</h2>';
         if (favorites.length === 0) {
@@ -139,13 +138,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Event listener for search input
-    searchInput.addEventListener('input', (e) => {
-        const query = e.target.value.trim();
-        fetchBooks(query);
-    });
+    // // Event listener for search input
+    // searchInput.addEventListener('input', (e) => {
+    //     const query = e.target.value.trim();
+    //     fetchBooks(query);
+    // });
 
-    // Initial fetch to display some books and favorites
+    // func calls
     fetchBooks();
     fetchFavorites();
 });

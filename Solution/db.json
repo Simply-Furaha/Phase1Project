@@ -16,7 +16,7 @@
       "published": "1986",
       "description": "In the town of Derry, the local kids are disappearing one by one, leaving behind bloody remains.",
       "image": "https://covers.openlibrary.org/b/id/8228691-L.jpg",
-      "rating": null
+      "rating": "3"
     },
     {
       "id": "3",
@@ -43,7 +43,7 @@
       "published": "1960",
       "description": "A young girl grows up in a racially charged town in the Deep South.",
       "image": "https://covers.openlibrary.org/b/id/8225261-L.jpg",
-      "rating": null
+      "rating": "2"
     },
     {
       "id": "6",
@@ -79,7 +79,7 @@
       "published": "1851",
       "description": "The narrative of Captain Ahab's obsessive quest to kill the white whale, Moby Dick.",
       "image": "https://covers.openlibrary.org/b/id/7319581-L.jpg",
-      "rating": null
+      "rating": "3"
     },
     {
       "id": "10",
@@ -124,7 +124,7 @@
       "published": "1947",
       "description": "A classic children's book about a bunny saying goodnight to everything around.",
       "image": "https://covers.openlibrary.org/b/id/8072681-L.jpg",
-      "rating": null
+      "rating": ""
     },
     {
       "id": "15",
