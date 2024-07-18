@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 34);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aliceblue;
+  }
+  
+  .book-list-container {
+    flex: 1;
+    margin-right: 20px;
+    background-color: aliceblue;
+    
+  }
+  
+  .book-list {
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 6px;
+  }
+  
+  .book-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .book-card img {
+    width: 50px;
+    height: 75px;
+    margin-right: 10px;
+  }
+  
+  .book-details {
+    flex: 2;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .favorites {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .favorites h2 {
+    margin-top: 0;
+  }
+  
+  .favorites-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites-list li {
+    margin-bottom: 10px;
+  }
+  
+  

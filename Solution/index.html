@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="book-list-container">
+      <input type="text" id="search" placeholder="Search books...">
+      <div id="book-list" class="book-list"></div>
+    </div>
+    <div id="book-details" class="book-details">
+      <h2>Book Details</h2>
+      <div id="details-content" class="details-content">
+        <!-- Book details will be displayed here dynamically -->
+      </div>
+      <button id="addToFavorites">Add to Favorites</button>
+      <button id="removeFromFavorites" style="display: none;">Remove from Favorites</button>
+    </div>
+    <div id="favorites" class="favorites">
+      <h2></h2>
+      <ol id="favorites-list" class="favorites-list">
+        <!-- Favorite books will be displayed here dynamically -->
+      </ol>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
