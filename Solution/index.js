@@ -138,12 +138,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // // Event listener for search input
-    // searchInput.addEventListener('input', (e) => {
-    //     const query = e.target.value.trim();
-    //     fetchBooks(query);
-    // });
-
     // func calls
     fetchBooks();
     fetchFavorites();

@@ -25,7 +25,7 @@
       "published": "1997",
       "description": "A young boy discovers he is a wizard on his 11th birthday.",
       "image": "https://covers.openlibrary.org/b/id/7888781-L.jpg",
-      "rating": null
+      "rating": "1"
     },
     {
       "id": "4",
@@ -34,7 +34,7 @@
       "published": "1937",
       "description": "Bilbo Baggins, a hobbit, is recruited by a wizard and a group of dwarves to reclaim their mountain home from a dragon.",
       "image": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
-      "rating": "4"
+      "rating": ""
     },
     {
       "id": "5",
