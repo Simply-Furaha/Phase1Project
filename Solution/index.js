@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetch books from url served
     const fetchBooks = (query = '') => {
-        fetch(`http://localhost:3000/books?q=${query}`)
+        fetch(`https://books-data-tltx.onrender.com/books`)
             .then(response => response.json())
             .then(data => displayBooks(data))
             .catch(error => console.error('Error fetching books:', error));
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Fetching favorites from my fav end point
     const fetchFavorites = () => {
-        fetch('http://localhost:3000/favorites')
+        fetch('https://books-data-tltx.onrender.com/favorites')
             .then(response => response.json())
             .then(favorites => {
                 favoriteBooks = favorites;
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Addinf book to favs
     const addToFavorites = (book) => {
         if (!favoriteBooks.some(fav => fav.id === book.id)) {
-            fetch('http://localhost:3000/favorites', {
+            fetch('https://books-data-tltx.onrender.com/favorites', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Rm from favs both json & UI
     const removeFromFavorites = (book) => {
-        fetch(`http://localhost:3000/favorites/${book.id}`, {
+        fetch(`https://books-data-tltx.onrender.com/favorites/${book.id}`, {
             method: 'DELETE',
         })
         .then(response => {
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const rating = document.getElementById('rating').value;
         book.rating = rating;
 
-        fetch(`http://localhost:3000/books/${book.id}`, {
+        fetch(`https://books-data-tltx.onrender.com/books`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
